@@ -1,0 +1,137 @@
+.voucher-modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.voucher-modal {
+  background: #fff;
+  border-radius: 12px;
+  padding: 32px 24px 24px 24px;
+  min-width: 700px;
+  max-width: 90vw;
+  box-shadow: 0 2px 16px #0002;
+  position: relative;
+}
+
+.voucher-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.voucher-modal-header h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #e53935;
+  cursor: pointer;
+}
+
+.add-voucher-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.voucher-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 12px;
+}
+
+.voucher-table th,
+.voucher-table td {
+  border: 1px solid #eee;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.voucher-table th {
+  background: #f5f7fa;
+  font-weight: 700;
+}
+
+.edit-btn,
+.delete-btn,
+.save-btn,
+.action-btn {
+  background: #fff;
+  border: 1px solid #1976d2;
+  color: #1976d2;
+  border-radius: 4px;
+  padding: 3px 10px;
+  font-size: 14px;
+  margin-right: 4px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.edit-btn:hover,
+.save-btn:hover {
+  background: #1976d2;
+  color: #fff;
+}
+
+.delete-btn {
+  border-color: #e53935;
+  color: #e53935;
+}
+
+.delete-btn:hover {
+  background: #e53935;
+  color: #fff;
+}
+
+.save-btn {
+  border-color: #388e3c;
+  color: #388e3c;
+}
+
+.save-btn:hover {
+  background: #388e3c;
+  color: #fff;
+}
+
+.voucher-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.voucher-form .voucher-form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.voucher-form .voucher-input,
+.voucher-form .voucher-select {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  width: 100%;
+}

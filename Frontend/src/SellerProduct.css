@@ -1,0 +1,115 @@
+.modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #0008;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.seller-product-form {
+  background: #ffe3b3 !important;
+  /* Nếu muốn cam đậm hơn, đổi #ffe3b3 thành #ffb184 hoặc #ff9800 */
+  border-radius: 0;
+  box-shadow: none !important;
+  padding: 0 0 0 0;
+  min-width: 420px;
+  max-width: 520px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  border: none;
+}
+.seller-product-form h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.seller-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.seller-form-label {
+  font-weight: 500;
+  color: #222;
+  font-size: 15px;
+  margin-bottom: 4px;
+  text-align: left;
+}
+.seller-form-input {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 15px;
+  background: #fff;
+  transition: border 0.2s;
+}
+.seller-form-input:focus {
+  border: 1.5px solid #1976d2;
+  outline: none;
+  background: #fff;
+}
+.seller-form-row {
+  display: flex;
+  gap: 16px;
+}
+.seller-form-row .half {
+  flex: 1;
+}
+.seller-form-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.seller-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 8px;
+}
+.seller-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.seller-btn.cancel {
+  background: #aaa;
+}
+.seller-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.seller-modal-bg {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #0005;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.seller-form-card {
+  background: #fafafa !important;
+  border-radius: 8px;
+  box-shadow: none;
+  padding: 36px 32px 28px 32px;
+  min-width: 420px;
+  max-width: 520px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  border: 1px solid #eee;
+}
